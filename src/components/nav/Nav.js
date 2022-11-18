@@ -1,5 +1,6 @@
 import './Nav.css'
-
+import img from './x.png'
+import { useState,useEffect } from 'react'
 const Nav=()=>{
     return(
         <nav>
@@ -8,9 +9,9 @@ const Nav=()=>{
                 <img
                 className="nav_logo"
                 alt="Logo"
-                src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png"
+                src={img}
                 />
-                <div className="nav_links">
+                 <div className="nav_links">
                     <a href="/">Home</a>
                     <a href="/">TV Shows</a>
                     <a href="/">TV Movies</a>
